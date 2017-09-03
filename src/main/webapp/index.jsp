@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Wai Chan Weather Demo</title>
+<title>Wai Chan Weather - Main Menu</title>
 </head>
 <body>
 	<center>
-		<h2>Wai Chan Weather Demo</h2>
+		<h2>Wai Chan Weather - Main Menu</h2>
 		<h3>
-			<a href="weather?name=Eric">Click Here</a>
+			<a href="weather?city=Sydney">Current weather by city</a>
 		</h3>
 	</center>
 </body>
