@@ -7,11 +7,7 @@
 <title>Wai Chan Weather - Main Menu</title>
 </head>
 <body>
-	<center>
-		<h2>Wai Chan Weather - Main Menu</h2>
-		<h3>
-			<a href="weather?city=Sydney">Current weather by city</a>
-		</h3>
-	</center>
+	<h1>Wai Chan Weather - Main Menu</h1>
+	<a href="currentweatherbycity.jsp">Current weather by city</a>
 </body>
 </html>

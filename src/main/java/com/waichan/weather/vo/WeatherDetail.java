@@ -12,7 +12,7 @@ public class WeatherDetail {
 	private String city; // City name
 	private Date updatedTime; // Updated time
 	private String weather; // weather description
-	private int temperature; // weather description
+	private float temperature; // weather description
 	private int wind; // wind speed in km/h
 
 	/**
@@ -29,7 +29,7 @@ public class WeatherDetail {
 	 * @param wind
 	 *            wind speed in km/h
 	 */
-	public WeatherDetail(String city, Date updatedTime, String weather, int temperature, int wind) {
+	public WeatherDetail(String city, Date updatedTime, String weather, float temperature, int wind) {
 		this.city = city;
 		this.updatedTime = updatedTime;
 		this.weather = weather;
@@ -37,43 +37,43 @@ public class WeatherDetail {
 		this.wind = wind;
 	}
 
+	/**
+	 * Get the city name
+	 * @return the city name
+	 */
 	public String getCity() {
 		return city;
 	}
 
-	public void setCity(String city) {
-		this.city = city;
-	}
-
+	/**
+	 * Get the updated time
+	 * @return the updated time
+	 */
 	public Date getUpdatedTime() {
 		return updatedTime;
 	}
 
-	public void setUpdatedTime(Date updatedTime) {
-		this.updatedTime = updatedTime;
-	}
-
+	/**
+	 * Get the weather description
+	 * @return the weather description
+	 */
 	public String getWeather() {
 		return weather;
 	}
 
-	public void setWeather(String weather) {
-		this.weather = weather;
-	}
-
-	public int getTemperature() {
+	/**
+	 * Get the temperature in °C
+	 * @return the temperature in °C
+	 */
+	public float getTemperature() {
 		return temperature;
 	}
 
-	public void setTemperature(int temperature) {
-		this.temperature = temperature;
-	}
-
+	/**
+	 * Get the wind speed in km/h
+	 * @return the wind speed in km/h
+	 */
 	public int getWind() {
 		return wind;
-	}
-
-	public void setWind(int wind) {
-		this.wind = wind;
 	}
 }
